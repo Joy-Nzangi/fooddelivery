@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">FoodApp</string>
+    <string name="find_nfood_near_you" translatable="false">Find Food      Near You</string>
+    <string name="popular" translatable="false">Popular</string>
+    <string name="kenyan_food" translatable="false">Kenyan Food</string>
+
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="existing_user_sign_in">Existing User? Sign In</string>
+
+<!--    TO DO error -> For content view error-->
+    <string name="todo">TO DO</string>
+
+
+    <string name="_4_8">4.8</string>
+    <string name="_105">105</string>
+    <string name="_375">375</string>
+    <string name="rating">Rating</string>
+    <string name="saved">Saved</string>
+    <string name="order">Order</string>
+    <string name="swahili_sweets">SWAHILI SWEETS</string>
+    <string name="kashata">Kashata</string>
+    <string name="a_crunchy_nutty_shareable_treat_made_with_sugar_peanuts_cardamom_and_milk_powder_this_snack_bar_is_the_perfect_after_school_work_snack">A crunchy, nutty, shareable treat. Made with sugar, peanuts, cardamom and milk powder, this snack bar is the perfect after school/work snack.</string>
+    <string name="_01">01</string>
+    <string name="ksh_500">Ksh. 500</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_you_are_logged_in" tools:ignore="TypographyEllipsis">Welcome...You are logged in</string>
+    <string name="_4_5">4.5</string>
+    <string name="cake_city">Cake City</string>
+    <string name="ksh_10">Ksh. 10</string>
+    <string name="mandazi">Mandazi</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="not_registered_sign_un">Not Registered? Sign Un</string>
+</resources>
