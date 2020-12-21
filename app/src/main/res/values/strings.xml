@@ -35,5 +35,6 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="sign_up">Sign Up</string>
-    <string name="not_registered_sign_un">Not Registered? Sign Un</string>
+    <string name="login">Login</string>
+    <string name="not_registered_sign_un">Not Registered? Sign Up</string>
 </resources>
