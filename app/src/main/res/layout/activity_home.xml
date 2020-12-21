@@ -5,28 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
-
     <TextView android:id="@+id/loggedInTextView"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/welcome_you_are_logged_in"
+        android:layout_width="wrap_content"
+        android:text="Welcome.. You are logged in"
         android:textSize="30sp"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Button android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custom"
-        android:text="@string/logout"
+        android:text="Logout"
         android:textSize="30sp"
-        android:textColor="@android:color/tertiary_text_light"
+        android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loggedInTextView"/>
+
+    <Button android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:text="Enter"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

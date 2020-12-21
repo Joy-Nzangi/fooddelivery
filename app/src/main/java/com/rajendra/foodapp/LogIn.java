@@ -19,6 +19,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.rajendra.foodapp.newmodel.UserDetail;
 import com.rajendra.foodapp.util.CustomToast;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import static com.rajendra.foodapp.R.layout.activity_log_in;
 
 public class LogIn extends AppCompatActivity {
@@ -36,7 +39,6 @@ public class LogIn extends AppCompatActivity {
         setContentView(activity_log_in);
 //       above was setContentView(R.layout.activity_main);
 
-        
 
         emailId = findViewById(R.id.editTextEmail);
         firstName = findViewById(R.id.editTextFirstName);
@@ -116,6 +118,7 @@ public class LogIn extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(LogIn.this, SignIn.class);
+//                was SignIn not MainActivity
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(i);
             }

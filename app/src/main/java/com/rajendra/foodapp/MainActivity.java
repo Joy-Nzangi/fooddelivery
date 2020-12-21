@@ -32,9 +32,10 @@ public class MainActivity extends AppCompatActivity {
         popularFoodList.add(new PopularFood("Kashata", "Ksh. 500", R.drawable.popularfood1));
         popularFoodList.add(new PopularFood("Nyama Choma", "Ksh. 450", R.drawable.popularfood2));
         popularFoodList.add(new PopularFood("Githeri", "Ksh. 200", R.drawable.popularfood3));
-        popularFoodList.add(new PopularFood("Float Cake Vietnam", "$7.05", R.drawable.popularfood1));
-        popularFoodList.add(new PopularFood("Chiken Drumstick", "$17.05", R.drawable.popularfood2));
-        popularFoodList.add(new PopularFood("Fish Tikka Stick", "$25.05", R.drawable.popularfood3));
+        popularFoodList.add(new PopularFood("Kashata", "Ksh. 500", R.drawable.popularfood1));
+        popularFoodList.add(new PopularFood("Nyama Choma", "Ksh. 450", R.drawable.popularfood2));
+        popularFoodList.add(new PopularFood("Githeri", "Ksh. 200", R.drawable.popularfood3));
+
 
         setPopularRecycler(popularFoodList);
 
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         kenyanFoodList.add(new KenyanFood("Mandazi", "Ksh. 10 per pc", R.drawable.asiafood1, "4.5", "Brook Haven"));
         kenyanFoodList.add(new KenyanFood("Black Forest Cake", "Ksh. 5,000", R.drawable.asiafood2, "5", "Valentine cake house"));
         kenyanFoodList.add(new KenyanFood("Pilau", "Ksh. 400", R.drawable.pilau, "3.5", "Golden Tulip"));
-        kenyanFoodList.add(new KenyanFood("Ugali Fish", "$25", R.drawable.ugali, "4.2", "Mama Oliech"));
+        kenyanFoodList.add(new KenyanFood("Ugali Fish", "Ksh. 450", R.drawable.ugali, "4.2", "Mama Oliech"));
 
         setAsiaRecycler(kenyanFoodList);
 
